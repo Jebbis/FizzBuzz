@@ -1,0 +1,24 @@
+public class Fizzbuzz {
+
+    // FizzBuzz on sanaleikki, jossa luetellaan numeroita järjestyksessä, mutta tietyin ehdoin numeroita vaihdetaan sanoiksi
+    // Numerot, jotka ovat jaollisia 3 vaihdetaan sanaksi "Fizz", jaollisia 5 ovat "Buzz" ja, jos molemmat toteutuvat niin "FizzBuzz"
+
+    // Ohjelma toistaa for looppia muuttujan "kuinkaMontaKertaa" ajan 
+    // Muuttujaan "tuloste" lisätään sanoja tai muuttujan i arvo riippuen mitkä ehdot toteutuvat
+    // Ensin ohjelma tarkistaa onko se jaollinen 3 tai 5 ja lisää tarvittaessa tarvittavat sanat
+    // Jos viimeisen if-lauseen kohdalla muuttuja "tuloste" arvo on tyhjä, lisätään tulosteeseen muuttujan "i" arvo.
+
+    public static void main(String[] args) {
+
+        int kuinkaMontaKertaa = 101;
+        
+        for (int i = 1; i <kuinkaMontaKertaa; i++){
+            String tuloste = "";
+            if (i % 3 == 0) { tuloste += "Fizz"; }
+            if (i % 5 == 0) { tuloste += "Buzz"; }
+            if (output == "") { tuloste = Integer.toString(i); }
+            System.out.println(tuloste);
+        }
+    }
+}
+
