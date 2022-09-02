@@ -1,12 +1,6 @@
 public class Fizzbuzz {
 
-    // FizzBuzz on sanaleikki, jossa luetellaan numeroita järjestyksessä, mutta tietyin ehdoin numeroita vaihdetaan sanoiksi
-    // Numerot, jotka ovat jaollisia 3 vaihdetaan sanaksi "Fizz", jaollisia 5 ovat "Buzz" ja, jos molemmat toteutuvat niin "FizzBuzz"
-
-    // Ohjelma toistaa for looppia muuttujan "kuinkaMontaKertaa" ajan 
-    // Muuttujaan "tuloste" lisätään sanoja tai muuttujan i arvo riippuen mitkä ehdot toteutuvat
-    // Ensin ohjelma tarkistaa onko se jaollinen 3 tai 5 ja lisää tarvittaessa tarvittavat sanat
-    // Jos viimeisen if-lauseen kohdalla muuttuja "tuloste" arvo on tyhjä, lisätään tulosteeseen muuttujan "i" arvo.
+    
 
     public static void main(String[] args) {
 
@@ -22,4 +16,4 @@ public class Fizzbuzz {
     }
 }
 
-    //FizzBuzz sopii mainiosti esimerkiski ystävien kanssa juomapeliksi ;)
+    
